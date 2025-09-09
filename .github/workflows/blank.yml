@@ -6,6 +6,7 @@ on:
 jobs:
   wait_and_pass:
     runs-on: ubuntu-latest
+    name: test-rules
     steps:
       - name: Wait 1 minute
         run: sleep 60
